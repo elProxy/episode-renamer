@@ -266,7 +266,7 @@ def main():
     parser.add_option("-m",
                       "--mask",
                       dest="mask",
-                      default="%(show)s - S%(series_num)02dE%(episode_num)02d - %(title)s.%(extension)s",
+                      default="%(show)s - %(series_num)dx%(episode_num)02d - %(title)s.%(extension)s",
                       metavar="MASK",
                       action="store",
                       type="string",
